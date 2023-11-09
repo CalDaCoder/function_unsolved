@@ -1,5 +1,5 @@
-// In this exercise you'll complete a series of "comparison" mini exercises. 
-// Conditional logic is a huge part of coding. It's what helps a program make decisions. 
+// In this exercise you'll complete a series of "comparison" mini exercises.
+// Conditional logic is a huge part of coding. It's what helps a program make decisions.
 // Finish each exercise below.
 // You can use ANY type of function syntax you want: named, arrow, or expression with anonymous function.
 
@@ -12,7 +12,17 @@
  */
 
 // Your code goes here...
+function getDiffTwentySeven(num) {
 
+  if (num > 27) return (num - 27) * 2; {
+    return (27 - num);
+  }
+
+
+};
+
+getDiffTwentySeven(13);
+getDiffTwentySeven(37);
 
 
 
@@ -25,7 +35,15 @@
 
 // Your code goes here
 
+function sumOfTwoIntegers(intg1, intg2) {
 
+  if (intg1 === intg2) return (intg1 + intg2) * 3;
+  else {
+    return intg1 + intg2;
+  }
+};
+sumOfTwoIntegers(13, 14);
+sumOfTwoIntegers(12, 12);
 
 
 /** =========================
@@ -38,6 +56,19 @@
  */
 
 // Your code goes here...
+function isOneOfThemOrTheirSumIsFourty(num1, num2) {
+  if (num1 + num2 == 40) return true; {
+    if (num1 === 40 || num2 === 40) return true;
+  }
+  return false;
+}
+
+
+
+
+isOneOfThemOrTheirSumIsFourty(40, 13);
+isOneOfThemOrTheirSumIsFourty(22, 18);
+isOneOfThemOrTheirSumIsFourty(23, 16);
 
 
 
