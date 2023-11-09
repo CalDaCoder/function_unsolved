@@ -25,15 +25,12 @@ rectArea(3, 6);
 function roomArea(sideA, sideB) {
   return sideA * sideB;
 }
+var room1 = rectArea(4, 6);
+var room2 = rectArea(13, 3);
+var room3 = rectArea(4, 8);
 
 
-var room = {
-  room1: roomArea(4, 6),
-  room2: roomArea(13, 3),
-  room3: roomArea(4, 8),
-};
 
-console.log([room]);
 
 
 /**
@@ -49,32 +46,27 @@ console.log([room]);
 // Your code goes here...
 function totalRoomsArea(area1, area2, area3) {
   return area1 + area2 + area3;
-}
+};
 
-var room1 = 24;
-var room2 = 35;
-var room3 = 24;
-
-
-
-var area1 = room1;
-var area2 = room2;
-var area3 = room3;
+var area1 = this.room1;
+var area2 = this.room2;
+var area3 = this.room3;
 
 
 
-totalRoomsArea(area1, area2, area3);
-totalRoomsArea(24, 35, 24);
+
 
 
 // Make the function call in the parentheses of the console.log statement.
 // Use room1, room2, room3 variables as arguments for the function call
 const result = function (room1, room2, room3) {
-  this.room1 = 24;
-  this.room2 = 32;
-  this.room3 = 39;
-  console.log(this.room1 + this.room2 + this.room3);
-}
+  var room1 = rectArea(4, 6);
+  var room2 = rectArea(13, 3);
+  var room3 = rectArea(4, 8);
+
+  console.log(room1 + room2 + room3)
+
+};
 
 
 
