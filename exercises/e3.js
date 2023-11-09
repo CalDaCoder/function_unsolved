@@ -57,10 +57,10 @@ function doesArrayIncldeBetweenVals(arr, val1, val2) {
 doesArrayIncldeBetweenVals([2, 4, 2], 3, 5);
 doesArrayIncldeBetweenVals([2, 4, 2], 5, 10);
 
-function getValueWithConditionOne(i, n) {
+function getValueWithConditionOne(val1, val2) {
   if (i == 40 && n == 40) return (i + n);
   else {
-    return (i + n) * 2;
+    return (val1 + val2) * 2;
   }
 };
 
@@ -77,10 +77,10 @@ const getValueWithConditionTwo = (val1, val2) => {
 getValueWithConditionTwo(40, 40);
 getValueWithConditionTwo(20, 30);
 
-const getValueWithConditionThree = function (arg1, arg2) {
-  if (arg1 == 40 && arg2 == 40) return arg1 + arg2;
+const getValueWithConditionThree = function (val1, val2) {
+  if (val1 == 40 && val2 == 40) return val1 + val2;
   else {
-    return (arg1 + arg2) * 2;
+    return (val1 + val2) * 2;
   }
 };
 

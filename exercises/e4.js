@@ -11,7 +11,7 @@
 var splitFirstAndLastNames = (arr) => {
   return arr.split(' ');
 };
-splitFirstAndLastNames('John Smith');
+
 
 
 /** =========================
