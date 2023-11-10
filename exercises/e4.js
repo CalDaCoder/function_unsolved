@@ -25,11 +25,10 @@ var Person = {
   age: 36,
 }
 
-const personAge = (Person) => {
-  return Person.age;
-}
+const personAge = (Person) => (Person.age);
 
-personAge(Person);
+
+//personAge(Person);
 
 /** =========================
  * The isNameInArray function takes an array and string of name as the arguments.
@@ -38,14 +37,11 @@ personAge(Person);
  * isNameInArray(['Jon', 'Michael', 'Andrey'], 'James') => false;
  */
 
-var people = ['Jon', 'Michael', 'Andrey'];
+//var people = ['Jon', 'Michael', 'Andrey'];
 
-const isNameInArray = (arr, name) => {
-  people = arr;
-  return arr.includes(name)
-}
-isNameInArray(['people'], 'Michael');
-isNameInArray(['people'], 'James');
+const isNameInArray = (arr, name) => (arr.includes(name));
+
+
 
 /** =========================
  * The logTimer function takes a number as the arguments.
