@@ -24,8 +24,7 @@ function doesArrayIncludeItemsBetweenVals(arr, val1, val2) {
 };
 
 
-doesArrayIncludeItemsBetweenVals([2, 4, 2], 3, 5);
-doesArrayIncludeItemsBetweenVals([2, 4, 2], 5, 10);
+
 
 
 /**
@@ -54,18 +53,17 @@ function doesArrayIncldeBetweenVals(arr, val1, val2) {
 }
 
 
-doesArrayIncldeBetweenVals([2, 4, 2], 3, 5);
-doesArrayIncldeBetweenVals([2, 4, 2], 5, 10);
+//doesArrayIncldeBetweenVals([2, 4, 2], 3, 5);
+//doesArrayIncldeBetweenVals([2, 4, 2], 5, 10);
 
 function getValueWithConditionOne(val1, val2) {
-  if (i == 40 && n == 40) return (i + n);
+  if (val1 == 40 && val2 == 40) return (val1 + val2);
   else {
     return (val1 + val2) * 2;
   }
 };
 
-getValueWithConditionOne(40, 40);
-getValueWithConditionOne(20, 30);
+
 
 
 
@@ -74,8 +72,7 @@ const getValueWithConditionTwo = (val1, val2) => {
   else { return (val1 + val2) * 2 }
 };
 
-getValueWithConditionTwo(40, 40);
-getValueWithConditionTwo(20, 30);
+
 
 const getValueWithConditionThree = function (val1, val2) {
   if (val1 == 40 && val2 == 40) return val1 + val2;
@@ -84,8 +81,7 @@ const getValueWithConditionThree = function (val1, val2) {
   }
 };
 
-getValueWithConditionThree(40, 40);
-getValueWithConditionThree(20, 30);
+
 
 
 
