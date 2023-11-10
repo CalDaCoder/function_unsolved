@@ -18,11 +18,9 @@ function getDiffTwentySeven(num) {
     return (27 - num);
   }
 
-
 };
 
-getDiffTwentySeven(13);
-getDiffTwentySeven(37);
+
 
 
 
@@ -42,8 +40,7 @@ function sumOfTwoIntegers(intg1, intg2) {
     return intg1 + intg2;
   }
 };
-sumOfTwoIntegers(13, 14);
-sumOfTwoIntegers(12, 12);
+
 
 
 /** =========================
@@ -61,15 +58,7 @@ function isOneOfThemOrTheirSumIsFourty(num1, num2) {
     if (num1 === 40 || num2 === 40) return true;
   }
   return false;
-}
-
-
-
-
-isOneOfThemOrTheirSumIsFourty(40, 13);
-isOneOfThemOrTheirSumIsFourty(22, 18);
-isOneOfThemOrTheirSumIsFourty(23, 16);
-
+};
 
 
 
