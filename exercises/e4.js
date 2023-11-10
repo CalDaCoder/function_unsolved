@@ -62,7 +62,7 @@ const logSecondsUpToMax = (max) => {
   }, 1000);
 }
 
-logSecondsUpToMax(10)
+logSecondsUpToMax(10);
 
 
 
